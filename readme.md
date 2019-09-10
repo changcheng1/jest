@@ -47,5 +47,5 @@
 
 + 安装babel-jest
 
-+ package里面使用 jest --watch 可以进行热模块更替(前提本地有git仓库,jest --watchAll可以监听全部文件)
++ package里面使用 jest --watch(通过git只运行变化的文件) 可以进行热模块更替(jest --watchAll可以监听全部文件)
 
